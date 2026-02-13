@@ -1,9 +1,10 @@
 import React from 'react'
+import MainCard from '../components/cards/MainCard'
 
 const Main = () => {
   return (
     <div>
-      <h1>Main</h1>
+      <MainCard title={'Word RDC'}/>
     </div>
   )
 }
